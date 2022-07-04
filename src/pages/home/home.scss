@@ -1,0 +1,52 @@
+.home {
+  display: flex;
+  flex : 2;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #F0F7F7;
+}
+  .homeContainer {
+    padding: 20px;
+    flex: auto;
+    flex-direction: column;
+ }
+    .widgets{
+      display: flex;
+      gap: 20px;
+      padding-bottom: 20px;
+    }
+    .charts {
+     
+      padding: 20px;
+      gap: 20px;
+    }
+    .head {
+      flex-grow: 1;
+      align-content: center;
+      padding-top: 5px;
+      font-weight: bolder;
+      color: rgb(60, 64, 105);
+      font-style: normal;
+    }
+    .charts {
+      padding: 0px 20px;
+    }
+    .input .MuiOutlinedInput-root{
+      border-radius: 25px;
+      background-color: #fafafa;
+      border: #fafafa;
+    }
+    .listContainer {
+      -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+      box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+      background-color: #fafafa;
+      padding: 20px;
+      margin: 20px;
+    }
+      .listTitle {
+        font-weight: 500;
+        color: gray;
+        margin-bottom: 15px;
+      }
+    
+  

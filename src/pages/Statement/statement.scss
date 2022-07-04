@@ -1,0 +1,19 @@
+.page{
+    display: flex;
+    flex : 2;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #F0F7F7;
+    height: 100vh;
+}
+.table{
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    background-color: #F0F7F7;
+    margin-right: auto;
+    padding: 50px;
+}
+.search .MuiOutlinedInput-root {
+    border-radius: 20px;
+  }
